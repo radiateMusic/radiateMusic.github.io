@@ -1,0 +1,314 @@
+/*
+ Theme Name:   Xcel Child
+ Template:     xcel
+ Theme URI: http://kairaweb.com/theme/xcel/
+Author: Kaira
+Author URI: http://www.kairaweb.com/
+Description: The Xcel theme is a modern design which is fully responsive, adapting to all screen sizes. The Xcel theme offers lots of different options from different header layouts with 4 different color schemes, different blog layouts and different footer layouts, all to suit your needs. It comes with a built in default slider and different page templates. With the Xcel we've integrated with some of the best plugins such as SiteOrigin's Page Builder, WooCommerce, Meta Slider and more. Download it and give it a go... Hope you like it!
+Version: 1.1.3
+License: GNU General Public License v2 or later
+*/
+
+.woocommerce #container, .woocommerce-page #container, .content-area {
+    width: 100%;
+    float: left;
+    padding: 40px 2% 40px 0;
+}
+
+.woocommerce #container, .woocommerce-page #container, .content-area, .page-template-default .content-area {
+    box-shadow: none;
+}
+
+.page-titlebar-left {
+	display:none;
+}
+
+.page-titlebar-right {
+	display: none;
+}
+
+.site-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /* padding: 0 20px; */
+}
+
+/*****************************************************************************************************************************
+
+			Homepage Styles
+
+*****************************************************************************************************************************/
+
+
+.homepageSongs {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    border-right: 1px solid;
+}
+.playButton {
+	display: block;
+    width: 45px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+	/*height: 20px;*/
+	/*background-image: url("wp-content/uploads/2016/01/test-play-button.jpg");*/
+}
+
+.homeSongContainer {
+	width: 160px;
+	height: 160px;
+	float: left;
+	position: relative;
+}
+
+.homeSongContainer img {
+	width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.homeSongOverlay {
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background-color: gray;
+    background-color: rgba(119,136 ,153, 0.8);
+    color: black;
+    text-align: center;
+}
+
+.homepageArtists {
+	    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+.homeShirtContainer {
+	width: 160px;
+	height: 160px;
+	float: left;
+	position: relative;
+}
+
+.homeShirtContainer img {
+	width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.homeShirtOverlay {
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background-color: gray;
+    background-color: rgba(119,136 ,153, 0.8);
+    color: black;
+    text-align: center;
+}
+
+.homepageBlurb {
+    width: 102%;
+    float: left;
+    height: 150px;
+    background-color: #545456;
+    color: #e5b664;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align:center;
+    padding-top: 15px;
+}
+
+.homepageBlurb h2 {
+	color: #e5b664;
+	font-size: 36px;
+}
+
+
+/***************************************************************************************************************************
+			MUSIC STYLES 
+**************************************************************************************************************************/
+
+#mediaplayer{
+	width:auto;
+	background-color:#151515;
+	height:auto;
+	color:#FFFFFF;
+	z-index:999999999;
+	position:fixed;
+	bottom: 0;
+	right: 0;
+
+
+}
+.song{
+	font-size:12px;
+	width:200px;
+	height:auto;
+}
+
+#BotM{
+	margin-bottom:5%;
+	width:100% !important;
+	height:450px;
+
+}
+#featuredleft{
+	float:left;
+	width:50%;
+}
+#featuredleft h2{
+	margin-left:10%;
+	font-size: 40px;
+}
+#featuredleft img{
+	margin-left:10%;
+	width:480px;
+	height: 350px;
+}
+
+#featuredright{
+	float:right;
+	width:50%;
+	padding-top:3%;
+}
+#featuredright h2{
+	/*padding-top:7%;*/
+}
+#readmore{
+	font-size:20px;
+	color:yellow;
+}
+.subMusicianImg{
+	height:auto;
+}
+
+#BotMDesc{
+	width: 500px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+.botmSongContainer {
+	width: 75px;
+	height: 75px;
+	float: left;
+	position: relative;
+	margin-right: 5px;
+}
+
+.botmSongContainer img {
+	width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.botmSongContainer .playButton {
+	position: absolute;
+    left: 25px;
+    top: 28px;
+    width: 25px;
+}
+#allbands{
+	margin-left:5%;
+	margin-top:5%;
+
+}
+#allbands h2{
+
+}
+
+.musicianAB{
+	/*padding-right:5%;*/
+	float: left;
+    width: 220px;
+    margin-bottom: 2.5%;
+    text-align: center;
+    margin-right: 60px;
+}
+.musicianAB img{
+	width:auto;
+	height:200px;
+}
+.song{
+	cursor:pointer;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.song img {
+	width: 30px;
+	height: auto !important;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.songList {
+	list-style-type: none;
+	margin: auto;
+}
+
+.ourPicks {
+	margin-left: 5%;
+    height: 170px;
+}
+.ourPickContainer {
+	width: 115px;
+    height: 115px;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+}
+
+.ourPickContainer img {
+	width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.ourPickContainer .playButton {
+	    position: absolute;
+    left: 37px;
+    top: 38px;
+    width: 40px;
+}
+
+#allartists {
+	margin-left: 5%;
+}
+
+.subArtist {
+	    float: left;
+    width: 220px;
+    margin-right:60px;
+    text-align:center;
+}
+.subArtistImg {
+	width:200px;
+	margin-left: 7%;
+}
+
+.price {
+	display: block;
+    /*margin-left: 22%;*/
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.addToCart {
+	/*margin-left: 24%;*/
+
+}
+.blurb {
+	    width: 100%;
+    margin-left: 5%;
+    font-size:16px;
+}
+
+.blurb h3 {
+	color: #e5b664;
+}
